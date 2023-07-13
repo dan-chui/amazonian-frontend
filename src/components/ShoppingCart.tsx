@@ -10,7 +10,7 @@ type ShoppingCartProps = {
 
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
   const checkout = async () => {
-    await fetch("http://localhost:4000/checkout", {
+    await fetch("https://amazonian-api.onrender.com/checkout", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
