@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap");
+
+.banner {
+  background-image: url("/imgs/supermarket.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.banner h1 {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.banner h5 {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 700px) {
+  .banner h1 {
+    font-size: 2.3rem;
+  }
+  .banner h5 {
+    font-size: 1.3rem;
+  }
+}
