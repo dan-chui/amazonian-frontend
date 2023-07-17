@@ -13,8 +13,7 @@ Please visit (in a new tab): https://amazonian.onrender.com
 - Node.js
 - Express.js
 - TypeScript
-- HTML
-- CSS
+- Tailwind CSS
 - Stripe API
 - Render
 
@@ -22,13 +21,13 @@ Please visit (in a new tab): https://amazonian.onrender.com
 
 - **Modern Framework**: Utilizing React.js and React Hooks to enhance the online shopping experience.
 
-- **Server support**: Built a server using Node.js and Express.js for database and cart editing functionality. <https://github.com/dan-chui/amazonian-backend>
+- **Server**: Built a server using Node.js and Express.js for database and cart editing functionality. <https://github.com/dan-chui/amazonian-backend>
 
-- **UI/UX**: Clean User interface and easy to use.
+- **UI/UX**: Clean User interface stylized by Taliwind CSS.
 
 - **Mobile Responsive**: Accessible via PC, tablet, or mobile phone systems.
   
-- **Stripe**: Connected to the Stripe API to allow payment processing.
+- **Stripe API**: Connected to the Stripe API to allow payment processing.
 
 ---
 
