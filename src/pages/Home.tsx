@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { Button, Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "./Home.css";
 
-export const Home = () => {
+export function Home() {
   return (
     <>
       <div className="banner fw-bold">
@@ -14,6 +14,4 @@ export const Home = () => {
       </div>
     </>
   );
-};
-
-export default Home;
+}
