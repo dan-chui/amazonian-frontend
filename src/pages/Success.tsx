@@ -1,7 +1,7 @@
 export function Success() {
   return (
     <>
-      <h1>Thank you for your purchase!</h1>
+      <h1 className="text-center">Thank You for your purchase!</h1>
       <div
         className="image"
         style={{

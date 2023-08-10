@@ -1,7 +1,7 @@
 export function Cancel() {
   return (
     <>
-      <h1>Oh no! You cancelled your Stripe payment!</h1>
+      <h1 className="text-center">Oh no! You cancelled your Stripe payment!</h1>
       <div
         className="image"
         style={{
