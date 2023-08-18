@@ -5,7 +5,6 @@ import { Home } from "./pages/Home";
 import { Store } from "./pages/Store";
 import { About } from "./pages/About";
 import { Success } from "./pages/Success";
-import { Cancel } from "./pages/Cancel";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import SpinnerFullPage from "./components/SpinnerFullPage";
@@ -21,7 +20,7 @@ function App() {
             <Route path="/store" element={<Store />} />
             <Route path="/about" element={<About />} />
             <Route path="/success" element={<Success />} />
-            <Route path="/cancel" element={<Cancel />} />
+            <Route path="/cancel" element={<Store />} />
           </Routes>
         </Suspense>
       </Container>

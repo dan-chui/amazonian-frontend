@@ -29,7 +29,6 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           window.location.assign(res.url); // Forward user to Stripe
         }
       });
-    setLoading(false);
   };
 
   const { closeCart, cartItems } = useShoppingCart();
