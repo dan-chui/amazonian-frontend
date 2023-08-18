@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Offcanvas, Stack, Button } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utilities/formatCurrency";
@@ -9,7 +10,10 @@ type ShoppingCartProps = {
 };
 
 export function ShoppingCart({ isOpen }: ShoppingCartProps) {
+  const [loading, setLoading] = useState(false);
+
   const checkout = async () => {
+    setLoading(true);
     await fetch("https://amazonian-api.onrender.com/checkout", {
       method: "POST",
       headers: {
@@ -25,6 +29,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           window.location.assign(res.url); // Forward user to Stripe
         }
       });
+    setLoading(false);
   };
 
   const { closeCart, cartItems } = useShoppingCart();
@@ -49,7 +54,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           </div>
         </Stack>
         <Button className="w-100" onClick={checkout}>
-          Checkout
+          {loading ? "Processing..." : "Checkout"}
         </Button>
       </Offcanvas.Body>
     </Offcanvas>
