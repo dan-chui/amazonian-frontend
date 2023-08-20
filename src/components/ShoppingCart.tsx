@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Offcanvas, Stack, Button } from "react-bootstrap";
+import { Offcanvas, Stack, Button, NavItem } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { CartItem } from "./CartItem";
@@ -29,6 +29,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           window.location.assign(res.url); // Forward user to Stripe
         }
       });
+    // setLoading(false);
   };
 
   const { closeCart, cartItems } = useShoppingCart();
@@ -52,7 +53,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
             )}
           </div>
         </Stack>
-        <Button className="w-100" onClick={checkout}>
+        <Button className="w-100" disabled={loading} onClick={checkout}>
           {loading ? "Processing..." : "Checkout"}
         </Button>
       </Offcanvas.Body>
