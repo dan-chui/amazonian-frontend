@@ -54,7 +54,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
           </div>
         </Stack>
         <Button className="w-100" disabled={loading} onClick={checkout}>
-          {loading ? "Processing..." : "Checkout"}
+          {loading ? "Please wait up to 30 seconds.." : "Checkout"}
         </Button>
       </Offcanvas.Body>
     </Offcanvas>
