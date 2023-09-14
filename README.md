@@ -30,6 +30,8 @@ Welcome to **Amazonian**!
   
 - **Stripe API**: Connected to the Stripe API to allow payment processing.
 
+- **Perfect Lighthouse score**: Achieved a 100 Lighthouse score for Desktop devices.
+
 ---
 
 ## 🌎 Getting Started
@@ -74,3 +76,5 @@ Please visit (in a new tab): https://amazonian.onrender.com
 ![](/public/imgs/screenshot3.webp)
 
 ![](/public/imgs/screenshot4.webp)
+
+![](/public/imgs/screenshot5.webp)
