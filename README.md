@@ -33,6 +33,21 @@ Welcome to **Amazonian**!
 - **Perfect Lighthouse score**: Achieved a 100 Lighthouse score for Desktop devices.
 
 ---
+## Demo
+
+Please visit (in a new tab): https://amazonian.onrender.com
+
+![](/public/imgs/screenshot1.webp)
+
+![](/public/imgs/screenshot2.webp)
+
+![](/public/imgs/screenshot3.webp)
+
+![](/public/imgs/screenshot4.webp)
+
+![](/public/imgs/screenshot5.webp)
+
+---
 
 ## 🌎 Getting Started
 
@@ -65,16 +80,3 @@ npm run dev
 ```
 npm run build
 ```
-## Demo
-
-Please visit (in a new tab): https://amazonian.onrender.com
-
-![](/public/imgs/screenshot1.webp)
-
-![](/public/imgs/screenshot2.webp)
-
-![](/public/imgs/screenshot3.webp)
-
-![](/public/imgs/screenshot4.webp)
-
-![](/public/imgs/screenshot5.webp)
