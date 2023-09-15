@@ -22,7 +22,7 @@ Welcome to **Amazonian**!
 
 - **Modern Framework**: Utilizing React.js and React Hooks to enhance the online shopping experience.
 
-- **Server**: Built a server using Node.js and Express.js for back-end support and cart editing functionality. <https://github.com/dan-chui/amazonian-backend>
+- **Server**: Node.js and Express.js provode back-end support and cart editing functionality. <https://github.com/dan-chui/amazonian-backend>
 
 - **UI/UX**: Clean User interface stylized by Tailwind CSS.
 
@@ -30,7 +30,7 @@ Welcome to **Amazonian**!
   
 - **Stripe API**: Connected to the Stripe API to allow payment processing.
 
-- **Perfect Lighthouse score**: Achieved a 100 Lighthouse score for Desktop devices.
+- **Perfect Lighthouse score**: Achieved a 100 Google Lighthouse score for Desktop devices.
 
 ---
 ## Demo
