@@ -2,7 +2,7 @@ export function About() {
   return (
     <>
       <div>
-        <h3 style={{ fontFamily: "Cinzel Decorative" }}>
+        <h3 style={{ fontFamily: 'Cinzel Decorative' }}>
           <strong>Amazonian</strong>
         </h3>
         <p>
@@ -17,7 +17,7 @@ export function About() {
           in life.
         </p>
         <p>
-          <i>Inquiries:</i>{" "}
+          <i>Inquiries:</i>{' '}
           <a href="mailto:contact@danchui.dev">contact@amazonian.com</a>
         </p>
       </div>
@@ -25,10 +25,10 @@ export function About() {
         className="image"
         style={{
           backgroundImage: 'url("/imgs/business-team.webp")',
-          height: "100vh",
-          width: "w-full",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
+          height: '100vh',
+          width: 'w-full',
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
         }}
       ></div>
     </>

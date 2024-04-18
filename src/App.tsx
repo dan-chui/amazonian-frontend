@@ -1,13 +1,13 @@
-import { Suspense } from "react";
-import { Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
-import { Home } from "./pages/Home";
-import { Store } from "./pages/Store";
-import { About } from "./pages/About";
-import { Success } from "./pages/Success";
-import { Navbar } from "./components/Navbar";
-import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import SpinnerFullPage from "./components/SpinnerFullPage";
+import { Suspense } from 'react';
+import { Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import { Home } from './pages/Home';
+import { Store } from './pages/Store';
+import { About } from './pages/About';
+import { Success } from './pages/Success';
+import { Navbar } from './components/Navbar';
+import { ShoppingCartProvider } from './context/ShoppingCartContext';
+import SpinnerFullPage from './components/SpinnerFullPage';
 
 function App() {
   return (

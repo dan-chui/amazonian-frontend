@@ -3,108 +3,126 @@
     "id": "price_1MtAHlBn3OJSKfJVsIQtcIPc",
     "name": "Flowers",
     "price": 12,
+    "details": "Seasonal fresh flowers",
     "imgUrl": "/imgs/flowers.webp"
   },
   {
     "id": "price_1MtAGBBn3OJSKfJVIKiJkS9H",
     "name": "Laptop",
     "price": 1499,
+    "details": "Perfect portable companion",
     "imgUrl": "/imgs/laptop.webp"
   },
   {
     "id": "price_1MtAEwBn3OJSKfJVYm2Xe8IQ",
     "name": "Book",
     "price": 9.5,
+    "details": "Classics to Bestsellers",
     "imgUrl": "/imgs/book.webp"
   },
   {
     "id": "price_1MtnZ8Bn3OJSKfJVt11lxSxh",
     "name": "Sofa",
     "price": 799,
+    "details": "Top-class comfort",
     "imgUrl": "/imgs/sofa.webp"
   },
   {
     "id": "price_1MtnZwBn3OJSKfJVPps15YmC",
     "name": "Bread",
     "price": 2.5,
+    "details": "Artisan bakery selections",
     "imgUrl": "/imgs/bread.webp"
   },
   {
     "id": "price_1MtnbDBn3OJSKfJVrZknG6mU",
     "name": "Milk (1L)",
     "price": 4.5,
+    "details": "Direct from the farm",
     "imgUrl": "/imgs/milk.webp"
   },
   {
     "id": "price_1MuAT5Bn3OJSKfJV9awhlduC",
     "name": "Camera",
     "price": 699,
+    "details": "Sharp images, guaranteed",
     "imgUrl": "/imgs/camera.webp"
   },
   {
     "id": "price_1MtncVBn3OJSKfJVkvRTH9In",
     "name": "Towels",
     "price": 14.5,
+    "details": "Wrap yourself in comfort",
     "imgUrl": "/imgs/towels.webp"
   },
   {
     "id": "price_1Mtnd3Bn3OJSKfJV7QjocmGH",
     "name": "Banana",
     "price": 0.45,
+    "details": "Always fresh",
     "imgUrl": "/imgs/banana.webp"
   },
   {
     "id": "price_1MtndiBn3OJSKfJVuScuDa54",
     "name": "Toy",
     "price": 22.5,
+    "details": "All proceeds go towards Children's charities",
     "imgUrl": "/imgs/toy.webp"
   },
   {
     "id": "price_1MtneUBn3OJSKfJVrKuMt14h",
     "name": "Sneakers",
     "price": 85.99,
+    "details": "Fashionable and sporty",
     "imgUrl": "/imgs/sneakers.webp"
   },
   {
     "id": "price_1MubDFBn3OJSKfJVz1b3wRBd",
     "name": "Coffee",
     "price": 4.5,
+    "details": "Enjoy Colombia's finest",
     "imgUrl": "/imgs/coffee.webp"
   },
   {
     "id": "price_1MubDzBn3OJSKfJVb3gQx4vM",
     "name": "Toothbrush",
     "price": 3.5,
+    "details": "Made from sustainable materials",
     "imgUrl": "/imgs/toothbrush.webp"
   },
   {
     "id": "price_1MubEXBn3OJSKfJVT8nbiJt0",
     "name": "Smartphone",
     "price": 799,
+    "details": "Stay connected",
     "imgUrl": "/imgs/smartphone.webp"
   },
   {
     "id": "price_1MubExBn3OJSKfJVawPc727H",
     "name": "Suitcases",
     "price": 299,
+    "details": "Perfect for any outing",
     "imgUrl": "/imgs/suitcases.webp"
   },
   {
     "id": "price_1MubFOBn3OJSKfJVaFW094sx",
     "name": "Eggs",
     "price": 5.5,
+    "details": "Direct from the farm",
     "imgUrl": "/imgs/eggs.webp"
   },
   {
     "id": "price_1MubFtBn3OJSKfJVEGWDw65p",
     "name": "Watch",
     "price": 1250,
+    "details": "Timeless pieces",
     "imgUrl": "/imgs/watch.webp"
   },
   {
     "id": "price_1Mtnf3Bn3OJSKfJVmEv6qMOG",
     "name": "Rice (1kg)",
     "price": 7.99,
+    "details": "Straight from Thailand",
     "imgUrl": "/imgs/rice.webp"
   }
 ]
